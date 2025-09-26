@@ -1,11 +1,10 @@
   function librarySystem() {
-
-    let username = prompt("Enter username:");
+   let username = prompt("Enter username:");
     let password = prompt("Enter password:");
     if (username === "Dinesh" && password === "dina") {
      let borrow = confirm("Do you want to get a book?");
      if (borrow) {
-             let category = prompt("Enter book type:\n1 = Moral \n2 = Science \n3 = Geological");
+        let category = prompt("Enter book type:\n1 = Moral \n2 = Science \n3 = Geological");
      category = Number(category);
     switch (category) {
      case 1:
@@ -21,11 +20,9 @@
         alert("Invalid type!");
              }
      } else {
-            
     alert(" sorry, try again later!");
             }
      } else {
-    
     alert("Invalid login!");
         }
     }
